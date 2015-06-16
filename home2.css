@@ -1,0 +1,85 @@
+/*home.css*/
+
+
+body { 
+  background: url("images/portfolio_back.svg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*body {
+  background: url("images/portfolio_back.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 3px dashed red;
+}*/
+
+/*
+body {
+  position: relative;
+  top: -20px;
+}*/
+
+.navbar-default {
+  background: rgba(75,75,75,0.2);
+  border: none;
+}
+
+.navbar-default:hover {
+  background: rgba(75,75,75,0.5);
+}
+
+
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+#bs-example-navbar-collapse-1 > ul > li > a {
+  color: white;
+}
+
+.color-sky {
+  color: rgb(103,169,227);
+}
+
+.navbar-nav >li:hover {
+  background-color: rgba(103,169,227,0.6);
+}
+
+.navbar-nav>.open>a {
+  background-color: rgba(103,169,227,0.8) !important;
+}
+
+.dropdown-menu {
+  background-color: rgba(103,169,227,0.6) !important;
+}
+
+.dropdown-menu>li>a {
+  background-color: transparent;
+  color: white;
+}
+
+.dropdown-menu>li>a:hover {
+  background-color: rgba(103,169,227,0.8);
+  color: white;
+}
+
+.jumbotron {
+  background-color: transparent;
+  float: right;
+  border: 2px red dashed;
+}
+
+.name {
+  display: inline;
+}
+
+#firstname, #lastname {
+  display: inline;
+}
+
+
+
